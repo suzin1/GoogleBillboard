@@ -7,7 +7,7 @@ public void setup()
     double dNu = Double.parseDouble(digits);
     if(isPrime(dNu)==true){
        System.out.println(dNu);
-       i = 200;
+       break;
     }
   }
 }  
